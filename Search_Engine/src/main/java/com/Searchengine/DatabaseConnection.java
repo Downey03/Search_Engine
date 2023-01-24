@@ -8,9 +8,9 @@ public class DatabaseConnection {
     public static Connection getConnection(){
         if(connection!=null)
             return connection;
-        String db = "searchengine";
-        String user = "root";
-        String pass = "$Warlordman2910";
+        String db = ""; //add the name of your database
+        String user = ""; //user name of database
+        String pass = ""; //pass of database
 
         return getConnection(db,user,pass);
     }
